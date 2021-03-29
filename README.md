@@ -3,8 +3,8 @@ Decompose .wav files using fourier transform into individual amplitudes and freq
 Example of finished project:
 
 1ms
-5.01 5021 
-4.30 4542
-5.65 345
+(5.01, 5021), 
+(4.30, 4542),
+(5.65, 345)
 
 This will continue for the entire .wav file with the first element of the line corresponding to the amplitude and the second the frequency of the file.
