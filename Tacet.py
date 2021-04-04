@@ -95,6 +95,7 @@ class Application:
         app_entry.pack()
         button = tk.Button(master=app, text='Convert', width=17, height=1, command=lambda: self.set(app_entry.get()))
         button.pack(side='bottom')
+        app.mainloop()
 
     def set(self, entry=''):
         """
@@ -134,9 +135,8 @@ class Application:
         pass
 
 
-app = Application
-app()
+app = Application()
 
-audio = Audio('test2.wav')
-audio.split(30, 60, 'test10.wav')
-plot_fft('test2.wav')
+audio = Audio(app.get())
+audio.split(30, 60, 'test11.wav')
+plot_fft(app.get())
