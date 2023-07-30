@@ -10,3 +10,5 @@ Example of finished project:
 This will continue for the entire .wav file with the first element of the line corresponding to the amplitude and the second the frequency of the file.
 
 * Disclamer I do not own any of the audio files
+
+Archived for now as project was abandoned prior. I may come back to develop this fully eventually.
